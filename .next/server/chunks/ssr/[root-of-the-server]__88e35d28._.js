@@ -59,12 +59,12 @@ const ProductList = ({ category, params })=>{
             children: "View all products"
         }, void 0, false, {
             fileName: "[project]/src/components/ProductList.tsx",
-            lineNumber: 31,
+            lineNumber: 34,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/ProductList.tsx",
-        lineNumber: 30,
+        lineNumber: 33,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

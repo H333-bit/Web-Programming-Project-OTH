@@ -130,8 +130,8 @@ const products = [
     {
         id: 1,
         name: "Adidas CoreFit T-Shirt",
-        shortDescription: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        description: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
+        shortDescription: "Test",
+        description: "Test",
         price: 39.9,
         sizes: [
             "s",
@@ -150,152 +150,6 @@ const products = [
             purple: "/products/1p.png",
             green: "/products/1gr.png"
         }
-    },
-    {
-        id: 2,
-        name: "Puma Ultra Warm Zip",
-        shortDescription: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        description: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        price: 59.9,
-        sizes: [
-            "s",
-            "m",
-            "l",
-            "xl"
-        ],
-        colors: [
-            "gray",
-            "green"
-        ],
-        images: {
-            gray: "/products/2g.png",
-            green: "/products/2gr.png"
-        }
-    },
-    {
-        id: 3,
-        name: "Nike Air Essentials Pullover",
-        shortDescription: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        description: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        price: 69.9,
-        sizes: [
-            "s",
-            "m",
-            "l"
-        ],
-        colors: [
-            "green",
-            "blue",
-            "black"
-        ],
-        images: {
-            green: "/products/3gr.png",
-            blue: "/products/3b.png",
-            black: "/products/3bl.png"
-        }
-    },
-    {
-        id: 4,
-        name: "Nike Dri Flex T-Shirt",
-        shortDescription: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        description: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        price: 29.9,
-        sizes: [
-            "s",
-            "m",
-            "l"
-        ],
-        colors: [
-            "white",
-            "pink"
-        ],
-        images: {
-            white: "/products/4w.png",
-            pink: "/products/4p.png"
-        }
-    },
-    {
-        id: 5,
-        name: "Under Armour StormFleece",
-        shortDescription: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        description: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        price: 49.9,
-        sizes: [
-            "s",
-            "m",
-            "l"
-        ],
-        colors: [
-            "red",
-            "orange",
-            "black"
-        ],
-        images: {
-            red: "/products/5r.png",
-            orange: "/products/5o.png",
-            black: "/products/5bl.png"
-        }
-    },
-    {
-        id: 6,
-        name: "Nike Air Max 270",
-        shortDescription: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        description: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        price: 59.9,
-        sizes: [
-            "40",
-            "42",
-            "43",
-            "44"
-        ],
-        colors: [
-            "gray",
-            "white"
-        ],
-        images: {
-            gray: "/products/6g.png",
-            white: "/products/6w.png"
-        }
-    },
-    {
-        id: 7,
-        name: "Nike Ultraboost Pulse ",
-        shortDescription: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        description: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        price: 69.9,
-        sizes: [
-            "40",
-            "42",
-            "43"
-        ],
-        colors: [
-            "gray",
-            "pink"
-        ],
-        images: {
-            gray: "/products/7g.png",
-            pink: "/products/7p.png"
-        }
-    },
-    {
-        id: 8,
-        name: "Levi’s Classic Denim",
-        shortDescription: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        description: "Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit. Lorem ipsum dolor sit amet consect adipisicing elit lorem ipsum dolor sit.",
-        price: 59.9,
-        sizes: [
-            "s",
-            "m",
-            "l"
-        ],
-        colors: [
-            "blue",
-            "green"
-        ],
-        images: {
-            blue: "/products/8b.png",
-            green: "/products/8gr.png"
-        }
     }
 ];
 const ProductList = ({ category, params })=>{
@@ -304,12 +158,12 @@ const ProductList = ({ category, params })=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Categories$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/ProductList.tsx",
-                lineNumber: 122,
+                lineNumber: 34,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             params === "products" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Filter$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/ProductList.tsx",
-                lineNumber: 123,
+                lineNumber: 35,
                 columnNumber: 33
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -318,12 +172,12 @@ const ProductList = ({ category, params })=>{
                         product: product
                     }, product.id, false, {
                         fileName: "[project]/src/components/ProductList.tsx",
-                        lineNumber: 126,
+                        lineNumber: 38,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductList.tsx",
-                lineNumber: 124,
+                lineNumber: 36,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -332,13 +186,13 @@ const ProductList = ({ category, params })=>{
                 children: "View all products"
             }, void 0, false, {
                 fileName: "[project]/src/components/ProductList.tsx",
-                lineNumber: 129,
+                lineNumber: 41,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/ProductList.tsx",
-        lineNumber: 121,
+        lineNumber: 33,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
